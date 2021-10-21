@@ -20,12 +20,18 @@
 
     <q-separator />
 
-<span class="text-weight-thin">Qui irure ipsum nostrud aute nulla dolor ipsum nostrud excepteur.</span>
-<span class="text-weight-light">Irure mollit exercitation do irure velit id sit nisi consequat dolor fugiat sunt.</span>
-<span class="text-weight-regular">Officia nisi Lorem nulla magna consequat.</span>
-<span class="text-weight-medium">Adipisicing esse nostrud sunt consectetur sit mollit veniam.</span>
-<span class="text-weight-bold">Reprehenderit fugiat reprehenderit id aliqua duis sint exercitation in est anim deserunt adipisicing occaecat.</span>
-<span class="text-weight-bolder">Est amet deserunt nisi officia anim incididunt enim sint ea incididunt.</span>
+    <span class="text-weight-thin">Qui irure ipsum nostrud aute nulla dolor ipsum nostrud excepteur.</span>
+    <span class="text-weight-light">Irure mollit exercitation do irure velit id sit nisi consequat dolor fugiat sunt.</span>
+    <span class="text-weight-regular">Officia nisi Lorem nulla magna consequat.</span>
+    <span class="text-weight-medium">Adipisicing esse nostrud sunt consectetur sit mollit veniam.</span>
+    <span class="text-weight-bold">Reprehenderit fugiat reprehenderit id aliqua duis sint exercitation in est anim deserunt adipisicing occaecat.</span>
+    <span class="text-weight-bolder">Est amet deserunt nisi officia anim incididunt enim sint ea incididunt.</span>
+
+    <q-btn
+      color="primary"
+      label="Abrir menú lateral"
+      class="q-mt-md"
+    />
 
   </q-page>
 </template>
