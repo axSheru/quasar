@@ -75,6 +75,8 @@ export default defineComponent({
   name: 'Forms',
   setup() {
 
+    const $q = useQuasar()
+
     const userForm = ref({
       email: '',
       password1: '',
@@ -91,6 +93,11 @@ export default defineComponent({
         userForm.value.errorInConditions = false
 
         if ( !userForm.value.conditions ) {
+          $q.notify({
+            message: 'Debe de aceptar las condiciones para continuar.',
+            color: 'red',
+            icon: 'las la-exclamation-circle'
+          })
           userForm.value.errorInConditions = true
           return
         }
